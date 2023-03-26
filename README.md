@@ -6,11 +6,13 @@ This is a quick Python script that enables you to download a youtube video as a 
 
 Open your powershell in the same directory as the Python file and run 
 ```powershell
-py youtube_mp3.py "INSERT YOUTUBE LINK HERE" "INSERT VIDEO TITLE HERE"```
+py youtube_mp3.py "INSERT YOUTUBE LINK HERE" "INSERT VIDEO TITLE HERE"
+```
 It will initially download your file as webm, change it to .mp3 and send it to your desired location folder.
 
 ### To select your desired location folder
 
 In the code ```python
-shutil.move(mp3_file_path, r"C:\Users\user\Music") ```
+shutil.move(mp3_file_path, r"C:\Users\user\Music")
+```
 change the C:\Users\user\Music to your directory of choice.
