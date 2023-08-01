@@ -1,0 +1,5 @@
+py rock.py "YT LINK" "TITLE"
+
+py ost.py "YT LINK" "TITLE"
+
+py trance.py "YT LINK" "TITLE"
